@@ -13,4 +13,9 @@ script:
   - docker run -e CI=true jyj2498/docker-react-app npm run test -- --coverage
 
 after_success:
-  - echo "Test Success!"
+  - echo "Test Success"
+
+notifications:
+  emails:
+    recipients:
+      - jyj2487@naver.com
