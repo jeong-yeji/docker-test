@@ -14,9 +14,9 @@ Section 3. 기본적인 도커 클라이언트 명령어 알아보기
 
 [Section 5. 도커를 이용한 간단한 Node.js 어플 만들기](./nodejs-docker-app/)
 
-Section 6. Docker Compose
+[Section 6. Docker Compose](./docker-compose-app/)
 
-Section 7. 간단한 어플을 실제로 배포해보기 (개발 환경 부분)
+[Section 7. 간단한 어플을 실제로 배포해보기 (개발 환경 부분)](./docker-react-app/)
 
 Section 8. 간단한 어플을 실제로 배포해보기 (테스트 & 배포 부분)
 
