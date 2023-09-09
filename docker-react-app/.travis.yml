@@ -12,8 +12,15 @@ before_install:
 script:
   - docker run -e CI=true jyj2498/docker-react-app npm run test -- --coverage
 
-after_success:
-  - echo "Test Success"
+deploy:
+  provider: elasticbeanstalk
+  region: "ap-northeast-2"
+  app: "docker-react-app"
+  env: "Docker-react-app-env"
+  bucket_name: "elasticbeanstalk-ap-northeast-2-980416005937"
+  bucket_path: "docker-react-app"
+  on:
+    branch: main
 
 notifications:
   emails:
