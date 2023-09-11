@@ -18,11 +18,11 @@ Section 3. 기본적인 도커 클라이언트 명령어 알아보기
 
 [Section 7. 간단한 어플을 실제로 배포해보기 (개발 환경 부분)](./docker-react-app/)
 
-Section 8. 간단한 어플을 실제로 배포해보기 (테스트 & 배포 부분)
+[Section 8. 간단한 어플을 실제로 배포해보기 (테스트 & 배포 부분)](./docker-react-app/
 
-Section 9. 복잡한 어플을 실제로 배포해보기 (개발 환경 부분)
+[Section 9. 복잡한 어플을 실제로 배포해보기 (개발 환경 부분)](./docker-fullstack-app/)
 
-Section 10. 복잡한 어플을 실제로 배포해보기 (테스트 & 배포 부분)
+[Section 10. 복잡한 어플을 실제로 배포해보기 (테스트 & 배포 부분)](./docker-fullstack-app/)
 
 Section 11. 강의 자료
 
